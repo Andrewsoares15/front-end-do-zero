@@ -39,6 +39,6 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
 
 ## ℹ️ Informações do projeto
 
-![GitHub Repo stars](https://img.shields.io/github/stars/iuricode/estudos-no-frontend?style=for-the-badge)
-![GitHub watchers](https://img.shields.io/github/watchers/iuricode/estudos-no-frontend?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/estudos-no-frontend?style=for-the-badge)
+![GitHub Repo stars](https://img.shields.io/github/stars/iuricode/ensinando-frontend?style=for-the-badge)
+![GitHub watchers](https://img.shields.io/github/watchers/iuricode/ensinando-frontend?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/iuricode/ensinando-frontend?style=for-the-badge)
