@@ -6,7 +6,7 @@ Esse repositório tem como objetivo principal apresentar e ensinar o básico da 
 
 ## ☕ Selecione um módulo<br>
 
-[![HTML](https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=black&color=FF8000)](https://github.com/iuricode/estudos-no-frontend/blob/main/modulos/html/html.br.md)
+[![HTML](https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=black&color=FF8000)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md)
 
 <br>
 
