@@ -350,4 +350,4 @@ Veja que div é amplo, mas footer dá significado (que é o rodapé). Portanto a
 
 
 
-[⬅ Voltar ao README principal](https://github.com/iuricode/estudos-no-frontend)
+[⬅ Voltar ao README principal](https://github.com/iuricode/ensinando-frontend)
