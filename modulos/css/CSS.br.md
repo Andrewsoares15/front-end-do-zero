@@ -53,7 +53,7 @@ Até agora, só pudemos selecionar elementos (como `<h1>`). Embora isso seja út
 <h1 id = "souID">
 ```
 
-# Chamando no CSS
+## Chamando no CSS
 Para fazemos referência a uma classe usando um `.` e o nome da classe, exemplo:
 
 ```css
@@ -72,7 +72,7 @@ Fazemos referência a um id usando um `#` e o nome do id:
 
 *Dessa forma, todos os elementos que tiverem a Class .souClass e o ID #souID vão ficar com a cor de texto de vermelho.*
 
-# E qual usar?
+## E qual usar?
 Agora te bateu uma dúvida né? *Se os dois fazem a mesma coisa, qual devo usar?*
 
 A resposta é simples, se você tem vários elementos (no nosso caso é o `<p>`) e queira usar de cor de texto vermelha em algumas, nesse caso usamos a Class, pense a Class em uma união em comum. Vou dar um exemplo que meu professor disse na faculdade, todos nós tem uma Class em como, que no caso é *humano* porém, todos nós temos um ID, que no caso é o *RG*. Então caso queira mudar somente em um elementos, usamos o ID.
