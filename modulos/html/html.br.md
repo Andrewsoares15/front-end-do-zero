@@ -1,5 +1,7 @@
 # HTML Fundamentos
 
+*Caso você ainda não tenha lido a nossa documentações dos fundamentos CSS clique [AQUI](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/css/CSS.br.md)*
+
 ## O que é HTML?
 HTML, ou *Hypertext Markup Language* é uma linguagem de marcação (não de programação) da web - cada vez que você carrega uma página da web, você está carregando um código HTML.
 Pense em HTML como o esqueleto de uma página da web, ele é responsavel pelos textos, links, listas e imagens - ele oferece *conteúdos* (enquanto javascript fornece *comportamento dinamicos* e o css *estilos*).
