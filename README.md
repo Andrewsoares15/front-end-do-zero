@@ -28,7 +28,15 @@ Esse repositório tem como objetivo principal apresentar e ensinar o básico da 
         </sub>
       </a>
     </td>
-  </tr>
+    <td align="center">
+      <a href="https://github.com/rbmelolima">
+        <img src="https://avatars2.githubusercontent.com/u/48859060?s=460&u=902a4a949f4632cd46c5159b330e858615e46d92&v=4" width="100px;" alt="Foto do Roger Bernardo de Melo Lima"/><br>
+        <sub>
+          <b>Roger Bernardo</b>
+        </sub>
+      </a>
+    </td>
+  </tr>  
 </table>
 
 ## ⛩ Seja um dos contribuidores<br>
