@@ -1,8 +1,8 @@
 ## 🚀 Sobre o projeto
 
-Esse repositório tem como objetivo principal apresentar e ensinar o básico da área **Front-end**, de uma maneira completa e acessível para todos.
+> Esse repositório tem como objetivo principal apresentar e ensinar o básico da área **Front-end**, de uma maneira completa e acessível para todos.
 
-## ☕ Selecione um módulo
+## ☕ Selecione o módulo
 
 [![HTML](https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=black&color=FF8000)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md)
 [![CSS](https://img.shields.io/badge/css%20-%23323330.svg?&style=for-the-badge&logo=css&logoColor=black&color=2E64FE)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/css/CSS.br.md)
@@ -11,10 +11,6 @@ Esse repositório tem como objetivo principal apresentar e ensinar o básico da 
 > Roadmap é um roteiro que busca apresentar os caminhos que uma pessoa pode percorrer para alcançar os objetivos e metas traçadas.
 
 [![Roadmap](https://img.shields.io/badge/Roadmap%20-%23323330.svg?&style=for-the-badge&logo=Roadmap&logoColor=black&color=DF01A5)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/roadmap/roadmap.md)
-
----
-
-<br>
 
 ## 🌈 Contribuidores
 
@@ -30,7 +26,7 @@ Esse repositório tem como objetivo principal apresentar e ensinar o básico da 
     </td>
     <td align="center">
       <a href="https://github.com/rbmelolima">
-        <img src="https://avatars2.githubusercontent.com/u/48859060?s=460&u=902a4a949f4632cd46c5159b330e858615e46d92&v=4" width="100px;" alt="Foto do Roger Bernardo de Melo Lima"/><br>
+        <img src="https://avatars2.githubusercontent.com/u/48859060" width="100px;" alt="Foto do Roger Bernardo de Melo Lima"/><br>
         <sub>
           <b>Roger Bernardo</b>
         </sub>
