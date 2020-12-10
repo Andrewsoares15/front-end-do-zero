@@ -1,6 +1,6 @@
 ## 🚀 Sobre o projeto
 
-> Esse repositório tem como objetivo principal apresentar e ensinar o básico da área **Front-end**, de uma maneira completa e acessível para todos.
+> Esse repositório tem como objetivo principal apresentar e ensinar o básico da área, de uma maneira completa e acessível para todos.
 
 ## ☕ Selecione o módulo
 
