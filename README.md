@@ -1,4 +1,4 @@
-## 🚀 Sobre o projeto
+## 🚀 Front-end do zero
 
 > Esse repositório tem como objetivo principal apresentar e ensinar o básico da área, de uma maneira completa e acessível para todos.
 
@@ -11,6 +11,16 @@
 > Roadmap é um roteiro que busca apresentar os caminhos que uma pessoa pode percorrer para alcançar os objetivos e metas traçadas.
 
 [![Roadmap](https://img.shields.io/badge/Roadmap%20-%23323330.svg?&style=for-the-badge&logo=Roadmap&logoColor=black&color=DF01A5)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/roadmap/roadmap.md)
+
+
+## ⛩ Seja um dos contribuidores
+
+Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+
+## ⚖ Licença
+
+Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+
 
 ## 🌈 Contribuidores
 
@@ -34,17 +44,3 @@
     </td>
   </tr>  
 </table>
-
-## ⛩ Seja um dos contribuidores
-
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.<br>
-
-## ⚖ Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.<br>
-
-## ℹ️ Informações do projeto
-
-![GitHub Repo stars](https://img.shields.io/github/stars/iuricode/ensinando-frontend?style=for-the-badge)
-![GitHub watchers](https://img.shields.io/github/watchers/iuricode/ensinando-frontend?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/ensinando-frontend?style=for-the-badge)
