@@ -42,5 +42,13 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
         </sub>
       </a>
     </td>
+    <td align="center">
+      <a href="https://github.com/LeviRibeiroFilho">
+        <img src="https://avatars0.githubusercontent.com/u/67472341" width="100px;" alt="Foto do Levi Ribeiro Filho"/><br>
+        <sub>
+          <b>Levi Ribeiro Filho</b>
+        </sub>
+      </a>
+    </td>
   </tr>  
 </table>
