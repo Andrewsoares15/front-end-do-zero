@@ -108,6 +108,82 @@ Os elementos de cabeçalho *H* representam seis níveis de título de seção. `
 <h5> tamanho 10 pontos </h5>
 <h6> tamanho 8 pontos </h6>
 
+## Tags para texto
+
+As tags de texto, definem diferentes formatações para diversos tipos de texto. Desde estilos de fonte, paragráfos, quebra de linha ou até mesmo spans.
+Enfim iremos conhecê-las:
+
+```
+<p></p> - Sendo a principal tag de texto, é usada para constituir um paragráfo
+exemplo:
+```
+<p>Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
+  Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.</p>
+
+
+  ``` 
+  <span></span> - Mesmo tendo a sua funcionalidade parecida com o uso dos paragráfos. Spans são geralmente utilizados apenas para omitir uma tag ou guardar uma pequena informação como uma legenda de um formulário
+  exemplo:
+  ```
+<p><span>Um texto</span></p>
+
+
+```
+ <pre></pre> - É a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado.  
+ exemplo:
+  Html:
+   <pre>
+	É uma noite de ladrões
+		Que virá te pegar     
+	
+	Pode aproximas-se de mansinho de você 
+		E te consumir 
+</pre>
+```
+Demo:
+<pre>
+	É uma noite de ladrões
+		Que virá te pegar     
+	
+	Pode aproximas-se de mansinho de você 
+		E te consumir 
+</pre>
+
+
+```
+<b></b> - Transforma e deixa o seu counteúdo em formato negrito.
+exemplo:
+```
+<b> Texto em Negrito</b>
+
+
+```
+<i></i> - Tranforma o seu countéudo em formato itálico.
+exemplo:
+```
+<i>Texto em Itálico</i>
+```
+
+
+```
+<br> - Essa tag não necessita de fechamento, ela executa a função de quebra de linha, sendo usada geralmente no final da oração ou frase.
+exemplo:
+```
+Teste de Quebra de Linha1<br>
+Teste de Quebra de Linha2<br>
+
+
+```
+<hr> - Essa tag não necessita de fechamento, ela forma uma linha horizontal, sendo também usada no final não sendo uma regra obrigatória
+exemplo:
+```
+<p>Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.
+  Este é o primeiro parágrafo do texto. Este é o primeiro parágrafo do texto.</p>
+
+<hr>
+
+<p>Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.
+  Este é o segundo parágrafo do texto. Este é o segundo parágrafo do texto.</p>
 ---
 
 # Tags de imagem
@@ -121,7 +197,7 @@ Os elementos de cabeçalho *H* representam seis níveis de título de seção. `
 
 Você talvez deve ter se perguntado o que é esse `src`, src (source) é atributo da tag `<img>`, nele vai conter a url da imagem que será inserida por você.
 
-Alguns pontos importante:
+Alguns pontos importantes:
 + A tag img não tem a chave de fechamento.
 + Se você tiver com a imagem de uma pasta deve colocar o caminho dela dentro do *src*.
 + Recomendamos que você coloque o atributo `alt` para que pessoas com deficiência saberem do que se trata a imagem na página.
@@ -342,6 +418,8 @@ Veja que div é amplo, mas footer dá significado (que é o rodapé). Portanto a
 + `<section>`: representa uma seção dentro de um documento.
 + `<summary>`: representa um cabeçalho para um elemento details.
 + `<time>`: representa uma data/hora.
+
+ 
 
 
 # Fontes de pesquisa
