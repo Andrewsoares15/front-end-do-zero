@@ -40,6 +40,75 @@ h1 {
 
 ---
 
+# Folha de Estilos
+O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é algo simples, desrevem um conjunto de regras no css onde apresenta tags para o leitor identificar de forma mais explícita referências ou algum recurso em específico, aplicando estilos. Iremos usar serão definidos dentro do par de tags ```<head>...</head>``` como será mostrado a seguir.
+
+```
+style type="text/css" title="mystyles" media="all">
+
+</style>
+```
+
+Iremos a explicação básica dos elementos citados acimas:
+
+```type="text/css``` Até aqui nada em especial, isto diz ao navegador que estamos usando um tipo de arquivo puro para descrever os estilos que iremos usar.
+
+```title=Meuestilo``` Este em especial é algo de sua livre escolha para nomear e mais tarde identificar os estilos presentes, pode conter qualquer nome
+
+```media=all``` Quando chega aqui nestas palavras as coisas já começam a ficar interessantes pois começam a se tratar de elementos responsivos para ajudar os "bots" dos navegadores a encontrarem o seu counteúdo no meio de milhares de sites. A palavra media significa que você pode ter livre-arbítrio para escolher o que sua página irá apresentar na tela do navegador do usuário, adaptando cores, altura e largura citamos alguns exemplos:
+
+```media=print```: Foi designada para o layout de impressão em papel;
+
+```media=tv```: Designada para televisores;
+
+```media=all```: Todos os dispositivos;
+
+```media=embossed```: Para dispositivos que imprimem em braile
+entre outros.
+
+## Aplicando Cor de Fundo
+
+Agora iremos aos estilos, a primeira coisa que iremos realizar é a abertura da tag ```<body>...</body>```. De forma resumida tudo que estiver dentro desta tag irá afetar os elementos da página de forma geral.
+A definição de body é seguida com um par de chaves.
+
+```
+body {
+  ...
+}
+```
+Os navegadores por padrão processam as páginas na cor branca e textos na cor escura, primeiramente dentro do body mesmo iremos realizar alterações no padrão de cor de fundo.
+
+```
+body {
+  background color: #4169E1;
+}
+```
+Repare que eu usei o elemento "#" na hora de definir uma cor, isto acontece pois o css utiliza o formato de cores com o código hexadecimal, o nome das cores em inglês e também o valor RGB (Red, Green, Blue) para definir o seu estilo
+
+## Aplicando cor ao texto
+
+Da mesma maneira podemos definir apartir da tag "color", cores ao texto tirando o padrão preto dele de antigamente.
+
+```
+body {
+  background color: #5d665b;
+  color: #5d665b;
+}
+```
+Observação: Da mesma maneira que eu coloquei na cor de fundo, nunca esqueça de incrementar o ponto vírgula no final, pois no css a pontuação é algo fundamental podendo causar até erros
+
+## Aplicando a margem
+
+Também podemos aplicar a famosa margem muita usada principalmente por mim para alinhar e acertar o posicionamento desejado de seu texto
+
+```
+body {
+  background color: #5d665b;
+  color: #5d665b;
+  margin: 50px;
+}
+```
+---
 # Class e ID
 Class e ID são tipos de atributos que podemos adicionar a um elemento para ser mais específicos com nossos seletores CSS.
 Até agora, só pudemos selecionar elementos (como `<h1>`). Embora isso seja útil, às vezes precisamos ser mais específicos. Exemplo, temos várias tags `<p>` em uma página, mas temos um `<p>` que queremos mudar de cor. E nesses casos que entrar a Class e o ID para selecionar apenas um elemento. Exemplo:
@@ -177,3 +246,8 @@ Aplique no seu CSS e no HTML:
 
 
 [⬅ Voltar ao README principal](https://github.com/iuricode/ensinando-frontend)
+
+
+<style type="text/css" title="mystyles" media="all">
+
+</style>
