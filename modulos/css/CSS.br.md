@@ -43,8 +43,8 @@ h1 {
 # Folha de Estilos
 O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é algo simples, desrevem um conjunto de regras no css onde apresenta tags para o leitor identificar de forma mais explícita referências ou algum recurso em específico, aplicando estilos. Iremos usar serão definidos dentro do par de tags ```<head>...</head>``` como será mostrado a seguir.
 
-```
-style type="text/css" title="mystyles" media="all">
+```css
+<style type="text/css" title="mystyles" media="all">
 
 </style>
 ```
@@ -246,8 +246,3 @@ Aplique no seu CSS e no HTML:
 
 
 [⬅ Voltar ao README principal](https://github.com/iuricode/ensinando-frontend)
-
-
-<style type="text/css" title="mystyles" media="all">
-
-</style>
