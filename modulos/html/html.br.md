@@ -155,7 +155,7 @@ Teste de Quebra de Linha1<br>
 Teste de Quebra de Linha2<br>
 ```
 
-<hr> - Essa tag não necessita de fechamento, ela forma uma linha horizontal, sendo também usada no final não sendo uma regra obrigatória. Exemplo:
+`<hr>` - Essa tag não necessita de fechamento, ela forma uma linha horizontal, sendo também usada no final não sendo uma regra obrigatória. Exemplo:
 
 ```html
 <p>Este é o primeiro parágrafo do texto.</p>
