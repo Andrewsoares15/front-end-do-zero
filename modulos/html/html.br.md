@@ -110,23 +110,21 @@ Os elementos de cabeçalho *H* representam seis níveis de título de seção. `
 
 ## Tags para texto
 
-As tags de texto, definem diferentes formatações para diversos tipos de texto. Desde estilos de fonte, paragráfos, quebra de linha ou até mesmo spans.
-Enfim iremos conhecê-las:
+As tags de texto, definem diferentes formatações para diversos tipos de texto. Desde estilos de fonte, paragráfos, quebra de linha ou até mesmo spans. Enfim iremos conhecê-las:
 
-<p></p> - Sendo a principal tag de texto, é usada para constituir um paragráfo
-exemplo:
+`<p></p>` - Sendo a principal tag de texto, é usada para constituir um paragráfo. Exemplo:
 
 ```html
 <p>Este é o primeiro parágrafo do texto.</p>
 ```
 
-<span></span> - Mesmo tendo a sua funcionalidade parecida com o uso dos paragráfos. Spans são geralmente utilizados apenas para omitir uma tag ou guardar uma pequena informação como uma legenda de um formulário. Exemplo:
+`<span></span>` - Mesmo tendo a sua funcionalidade parecida com o uso dos paragráfos. Spans são geralmente utilizados apenas para omitir uma tag ou guardar uma pequena informação como uma legenda de um formulário. Exemplo:
 
  ```html
 <p><span>Um texto</span></p>
  ```
 
- <pre></pre> - É a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. Exemplo:
+`<pre></pre>` - É a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. Exemplo:
 
 ```html
 <pre>
@@ -137,29 +135,27 @@ exemplo:
 		E te consumir 
 </pre>
 ```
-<b></b> - Transforma e deixa o seu counteúdo em formato negrito. Exemplo:
+
+`<b></b>` - Transforma e deixa o seu counteúdo em formato negrito. Exemplo:
 
 ```html
-<b> Texto em Negrito</b>
+<b>Texto em Negrito</b>
 ```
 
-<i></i> - Tranforma o seu countéudo em formato itálico.
-exemplo:
+`<i></i>` - Tranforma o seu countéudo em formato itálico. Exemplo:
 
 ```html
 <i>Texto em Itálico</i>
 ```
 
-<br> - Essa tag não necessita de fechamento, ela executa a função de quebra de linha, sendo usada geralmente no final da oração ou frase.
-exemplo:
+`<br>` - Essa tag não necessita de fechamento, ela executa a função de quebra de linha, sendo usada geralmente no final da oração ou frase. Exemplo:
 
 ```html
 Teste de Quebra de Linha1<br>
 Teste de Quebra de Linha2<br>
 ```
 
-<hr> - Essa tag não necessita de fechamento, ela forma uma linha horizontal, sendo também usada no final não sendo uma regra obrigatória
-exemplo:
+<hr> - Essa tag não necessita de fechamento, ela forma uma linha horizontal, sendo também usada no final não sendo uma regra obrigatória. Exemplo:
 
 ```html
 <p>Este é o primeiro parágrafo do texto.</p>
