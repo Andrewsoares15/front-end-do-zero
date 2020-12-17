@@ -51,20 +51,19 @@ O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é a
 
 Iremos a explicação básica dos elementos citados acimas:
 
-```type="text/css``` Até aqui nada em especial, isto diz ao navegador que estamos usando um tipo de arquivo puro para descrever os estilos que iremos usar.
+`type="text/css` - Até aqui nada em especial, isto diz ao navegador que estamos usando um tipo de arquivo puro para descrever os estilos que iremos usar.
 
-```title=Meuestilo``` Este em especial é algo de sua livre escolha para nomear e mais tarde identificar os estilos presentes, pode conter qualquer nome
+`title=Meuestilo` - Este em especial é algo de sua livre escolha para nomear e mais tarde identificar os estilos presentes, pode conter qualquer nome.
 
-```media=all``` Quando chega aqui nestas palavras as coisas já começam a ficar interessantes pois começam a se tratar de elementos responsivos para ajudar os "bots" dos navegadores a encontrarem o seu counteúdo no meio de milhares de sites. A palavra media significa que você pode ter livre-arbítrio para escolher o que sua página irá apresentar na tela do navegador do usuário, adaptando cores, altura e largura citamos alguns exemplos:
+`media=all` - Quando chega aqui nestas palavras as coisas já começam a ficar interessantes pois começam a se tratar de elementos responsivos para ajudar os "bots" dos navegadores a encontrarem o seu counteúdo no meio de milhares de sites. A palavra media significa que você pode ter livre-arbítrio para escolher o que sua página irá apresentar na tela do navegador do usuário, adaptando cores, altura e largura citamos alguns exemplos:
 
-```media=print```: Foi designada para o layout de impressão em papel;
+`media=print` - Foi designada para o layout de impressão em papel.
 
-```media=tv```: Designada para televisores;
+`media=tv` - Designada para televisores.
 
-```media=all```: Todos os dispositivos;
+`media=all` - Todos os dispositivos.
 
-```media=embossed```: Para dispositivos que imprimem em braile
-entre outros.
+`media=embossed` - Para dispositivos que imprimem em braile entre outros.
 
 ## Aplicando Cor de Fundo
 
