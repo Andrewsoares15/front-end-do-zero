@@ -16,13 +16,13 @@ A primeira coisa que precisamos fazer é criar um arquivo css do qual nossa pág
 ### Etapa 2: Linkar seu CSS no HTML
 Precisamos conectar nossa página `style.css` à página HTML. Dentro da tag `<head>` de sua página html, vamos adicionar uma tag `<link>` para conectar a nossa nova folha de estilo.
 
-```HTML
+```html
 <link rel = "stylesheet" href = "style.css">
 ```
 
 *certifique-se de que sua página html e sua folha de estilo css estão no mesmo nível de pasta, caso ele esteja dentro de uma pasta é simples chamar, basta colocar o nome da página antes do nome do arquivo seperando ele com uma barra (/)* 
 
-```HTML
+```html
 <link rel = "stylesheet" href = "nomeDaPasta/style.css">
 ```
 
@@ -43,7 +43,7 @@ h1 {
 # Folha de Estilos
 O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é algo simples, desrevem um conjunto de regras no css onde apresenta tags para o leitor identificar de forma mais explícita referências ou algum recurso em específico, aplicando estilos. Iremos usar serão definidos dentro do par de tags ```<head>...</head>``` como será mostrado a seguir.
 
-```css
+```html
 <style type="text/css" title="mystyles" media="all">
 
 </style>
@@ -71,14 +71,14 @@ entre outros.
 Agora iremos aos estilos, a primeira coisa que iremos realizar é a abertura da tag ```<body>...</body>```. De forma resumida tudo que estiver dentro desta tag irá afetar os elementos da página de forma geral.
 A definição de body é seguida com um par de chaves.
 
-```
+```css
 body {
   ...
 }
 ```
 Os navegadores por padrão processam as páginas na cor branca e textos na cor escura, primeiramente dentro do body mesmo iremos realizar alterações no padrão de cor de fundo.
 
-```
+```css
 body {
   background color: #4169E1;
 }
@@ -89,7 +89,7 @@ Repare que eu usei o elemento "#" na hora de definir uma cor, isto acontece pois
 
 Da mesma maneira podemos definir apartir da tag "color", cores ao texto tirando o padrão preto dele de antigamente.
 
-```
+```css
 body {
   background color: #5d665b;
   color: #5d665b;
@@ -101,7 +101,7 @@ Observação: Da mesma maneira que eu coloquei na cor de fundo, nunca esqueça d
 
 Também podemos aplicar a famosa margem muita usada principalmente por mim para alinhar e acertar o posicionamento desejado de seu texto
 
-```
+```css
 body {
   background color: #5d665b;
   color: #5d665b;
