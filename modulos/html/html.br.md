@@ -4,12 +4,12 @@
 
 ## O que é HTML?
 HTML, ou *Hypertext Markup Language* é uma linguagem de marcação (não de programação) da web - cada vez que você carrega uma página da web, você está carregando um código HTML.
-Pense em HTML como o esqueleto de uma página da web, ele é responsavel pelos textos, links, listas e imagens - ele oferece *conteúdos* (enquanto javascript fornece *comportamento dinamicos* e o css *estilos*).
+Pense em HTML como o esqueleto de uma página da web, ele é responsável pelos textos, links, listas e imagens - ele oferece *conteúdos* (enquanto javascript fornece *comportamento dinâmicos* e o css *estilos*).
 
 ---
 
 ## Iniciando
-HTML é escrito em arquivos *.html*. Para criar uma página HTML é facíl, entre em seu editor de código e salva em arquivo em branco como `meu-site.html` (você pode nomeá-lo como quiser).
+HTML é escrito em arquivos *.html*. Para criar uma página HTML é fácil, entre em seu editor de código e salva em arquivo em branco como `meu-site.html` (você pode nomeá-lo como quiser).
 
 ---
 
@@ -57,7 +57,7 @@ A estrutura inicial do seu html é essa:
 *Vou explicar sobre elas*
 + `<! DOCTYPE html> `- Essa tag (não tem fechamento dela) informa ao seu navegador que o arquivo faz parte de um documento HTML5. 
 + `<html>` - Essa é tag que seu código todo vai fichar dentro `<html>` seu código aqui `</html>`.
-+ `<head>` - O head contém informações sobre seu site, mas não é o conteudo que vai aparecer na sua página. Ela conterá coisas como: links para folhas de estilo (CSS), título pa sua página, link de fontes e tudo aquilo que você quiser linkar (só não recomendo link seu script dentro dessa tag).
++ `<head>` - O head contém informações sobre seu site, mas não é o conteúdo que vai aparecer na sua página. Ela conterá coisas como: links para folhas de estilo (CSS), título pa sua página, link de fontes e tudo aquilo que você quiser linkar (só não recomendo link seu script dentro dessa tag).
 + `<body>` - No body contém todo o conteúdo que vai aparecer na sua página. Todo o código que você escrever irá dentro dele.
 
 ---
@@ -110,7 +110,7 @@ Os elementos de cabeçalho *H* representam seis níveis de título de seção. `
 
 ## Tags para texto
 
-As tags de texto, definem diferentes formatações para diversos tipos de texto. Desde estilos de fonte, paragráfos, quebra de linha ou até mesmo spans. Enfim iremos conhecê-las:
+As tags de texto, definem diferentes formatações para diversos tipos de texto. Desde estilos de fonte, parágrafos, quebra de linha ou até mesmo spans. Enfim iremos conhecê-las:
 
 `<p></p>` - Sendo a principal tag de texto, é usada para constituir um paragráfo. Exemplo:
 
@@ -118,13 +118,13 @@ As tags de texto, definem diferentes formatações para diversos tipos de texto.
 <p>Este é o primeiro parágrafo do texto.</p>
 ```
 
-`<span></span>` - Mesmo tendo a sua funcionalidade parecida com o uso dos paragráfos. Spans são geralmente utilizados apenas para omitir uma tag ou guardar uma pequena informação como uma legenda de um formulário. Exemplo:
+`<span></span>` - Mesmo tendo a sua funcionalidade parecida com o uso dos parágrafos. Spans são geralmente utilizados apenas para omitir uma tag ou guardar uma pequena informação como uma legenda de um formulário. Exemplo:
 
  ```html
 <p><span>Um texto</span></p>
  ```
 
-`<pre></pre>` - É a tag utilizada para representar texto pré-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. Exemplo:
+`<pre></pre>` - É a tag utilizada para representar texto recém-formatado. Um texto dentro desse elemento é tipicamente exibido em uma fonte não proporcional da mesma maneira em que o texto original foi disposto no arquivo. Espaços em branco são mantidos no texto da mesma forma em que este foi digitado. Exemplo:
 
 ```html
 <pre>
@@ -136,13 +136,13 @@ As tags de texto, definem diferentes formatações para diversos tipos de texto.
 </pre>
 ```
 
-`<b></b>` - Transforma e deixa o seu counteúdo em formato negrito. Exemplo:
+`<b></b>` - Transforma e deixa o seu conteúdo em formato negrito. Exemplo:
 
 ```html
 <b>Texto em Negrito</b>
 ```
 
-`<i></i>` - Tranforma o seu countéudo em formato itálico. Exemplo:
+`<i></i>` - Transforma o seu conteúdo em formato itálico. Exemplo:
 
 ```html
 <i>Texto em Itálico</i>
@@ -271,7 +271,7 @@ Aparecerá assim no site:
 ---
 
 ## Tags para formulário
-*Essa seção vamos mostrar como montar seu formulario.* 
+*Essa seção vamos mostrar como montar seu formulário.* 
 Formulários HTML são um dos principais pontos de interação entre um usuário e um web site. Um formulário HTML é feito de um ou mais widgets. Esses widgets podem ser campos de texto (linha única ou de várias linhas), caixas de seleção, botões, checkboxes ou radio buttons. 
 
 Para construir o nosso formulário de contato, vamos utilizar os seguintes elementos `<form>` , `<label>` , `<input>` , `<textarea>`  e `<button>`.
