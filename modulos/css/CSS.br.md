@@ -3,7 +3,7 @@
 *Caso você ainda não tenha lido a nossa documentações dos fundamentos HTML clique [AQUI](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md)*
 
 ## O que é CSS?
-CSS ou *folhas de estilo em cascata* é a linguagens de marcação (não de programação) responsavel por adicionar estilos nos sitesna web, como cores, tamanhos, posicionamentos. Sem ele, os sites são apenas um monte de texto e links, html acaba virando um Markdown.
+CSS ou *folhas de estilo em cascata* é a linguagens de marcação (não de programação) responsável por adicionar estilos nos sistema na web, como cores, tamanhos, posicionamentos. Sem ele, os sites são apenas um monte de texto e links, html acaba virando um Markdown.
 
 ---
 
@@ -20,7 +20,7 @@ Precisamos conectar nossa página `style.css` à página HTML. Dentro da tag `<h
 <link rel = "stylesheet" href = "style.css">
 ```
 
-*certifique-se de que sua página html e sua folha de estilo css estão no mesmo nível de pasta, caso ele esteja dentro de uma pasta é simples chamar, basta colocar o nome da página antes do nome do arquivo seperando ele com uma barra (/)* 
+*certifique-se de que sua página html e sua folha de estilo css estão no mesmo nível de pasta, caso ele esteja dentro de uma pasta é simples chamar, basta colocar o nome da página antes do nome do arquivo seperado ele com uma barra (/)* 
 
 ```html
 <link rel = "stylesheet" href = "nomeDaPasta/style.css">
@@ -41,7 +41,7 @@ h1 {
 ---
 
 # Folha de Estilos
-O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é algo simples, desrevem um conjunto de regras no css onde apresenta tags para o leitor identificar de forma mais explícita referências ou algum recurso em específico, aplicando estilos. Iremos usar serão definidos dentro do par de tags ```<head>...</head>``` como será mostrado a seguir.
+O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é algo simples, descrevem um conjunto de regras no css onde apresenta tags para o leitor identificar de forma mais explícita referências ou algum recurso em específico, aplicando estilos. Iremos usar serão definidos dentro do par de tags ```<head>...</head>``` como será mostrado a seguir.
 
 ```html
 <style type="text/css" title="mystyles" media="all">
@@ -49,13 +49,13 @@ O que constitui uma folha de estilos? Bem, basicamente uma folha de estilos é a
 </style>
 ```
 
-Iremos a explicação básica dos elementos citados acimas:
+Iremos a explicação básica dos elementos citados acima:
 
 `type="text/css` - Até aqui nada em especial, isto diz ao navegador que estamos usando um tipo de arquivo puro para descrever os estilos que iremos usar.
 
 `title=Meuestilo` - Este em especial é algo de sua livre escolha para nomear e mais tarde identificar os estilos presentes, pode conter qualquer nome.
 
-`media=all` - Quando chega aqui nestas palavras as coisas já começam a ficar interessantes pois começam a se tratar de elementos responsivos para ajudar os "bots" dos navegadores a encontrarem o seu counteúdo no meio de milhares de sites. A palavra media significa que você pode ter livre-arbítrio para escolher o que sua página irá apresentar na tela do navegador do usuário, adaptando cores, altura e largura citamos alguns exemplos:
+`media=all` - Quando chega aqui nestas palavras as coisas já começam a ficar interessantes pois começam a se tratar de elementos responsivos para ajudar os "bots" dos navegadores a encontrarem o seu conteúdo no meio de milhares de sites. A palavra media significa que você pode ter livre-arbítrio para escolher o que sua página irá apresentar na tela do navegador do usuário, adaptando cores, altura e largura citamos alguns exemplos:
 
 `media=print` - Foi designada para o layout de impressão em papel.
 
@@ -86,7 +86,7 @@ Repare que eu usei o elemento "#" na hora de definir uma cor, isto acontece pois
 
 ## Aplicando cor ao texto
 
-Da mesma maneira podemos definir apartir da tag "color", cores ao texto tirando o padrão preto dele de antigamente.
+Da mesma maneira podemos definir partir da tag "color", cores ao texto tirando o padrão preto dele de antigamente.
 
 ```css
 body {
