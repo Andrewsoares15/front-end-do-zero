@@ -2,6 +2,8 @@
 
 > Esse repositório tem como objetivo principal apresentar e ensinar o básico da área, de uma maneira completa e acessível para todos.
 
+[![EBOOK](https://img.shields.io/badge/BAIXAR%20EBOOK%20-%23323330.svg?&style=for-the-badge&logo=EBOOK&logoColor=black&color=0000FF)](https://drive.google.com/file/d/1-xmqbF8rh_vv1t7ncavfNcCo8e86vg8C/view)
+
 ## ☕ Selecione o módulo
 
 [![HTML](https://img.shields.io/badge/html%20-%23323330.svg?&style=for-the-badge&logo=html&logoColor=black&color=FF8000)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md)
