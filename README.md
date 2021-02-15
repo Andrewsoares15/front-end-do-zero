@@ -15,6 +15,10 @@
 
 [![Roadmap](https://img.shields.io/badge/Roadmap%20-%23323330.svg?&style=for-the-badge&logo=Roadmap&logoColor=black&color=DF01A5)](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/roadmap/roadmap.md)
 
+## Era isso, Dev...
+
+Bom, esse é um pequeno guia dos passos para se tornar um desenvolvedor front-end. Espero que você possa ter aprendido muitas coisas ao ler está páginas. Grande abraço!
+
 
 ## ⛩ Seja um dos contribuidores
 
