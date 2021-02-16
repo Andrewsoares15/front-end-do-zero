@@ -9,3 +9,7 @@ _Caso você ainda não tenha lido a nossa documentações dos fundamentos CSS cl
 JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web. Toda vez que uma página da web faz mais do que simplesmente mostrar a você informações estáticas, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. Você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais ([HTML](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md) e [CSS](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/css/CSS.br.md)) que já falamos sobre elas por aqui.
 
 > Em construção!
+
+## Fontes de Pesquisa
+
+[Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)
