@@ -8,6 +8,36 @@ _Caso você ainda não tenha lido a nossa documentações dos fundamentos CSS cl
 
 JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web. Toda vez que uma página da web faz mais do que simplesmente mostrar a você informações estáticas, mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. Você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais ([HTML](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/html/html.br.md) e [CSS](https://github.com/iuricode/ensinando-frontend/blob/main/modulos/css/CSS.br.md)) que já falamos sobre elas por aqui.
 
+## Iniciando
+Vamos por etapas.
+### Etapa 1: Criar um arquivo JS:
+O primeiro passo é criar um arquivo ".js". Então abrindo seu editor de códigos, crie um novo arquivo chamado de script.js(você pode nomeá-lo como quiser, porém não pode faltar o .js no final).
+### Etapa 2: Linkar seu JS no HTML.
+Precisamos conectar nossa página script.js à página HTML. Dentro da tag `<body>` de sua página html, vamos adicionar uma tag `<script>` para conectar nosso código JavaScript. É recomendado salvar no final do seu código, somente acima das tags `<body>` e `<html>`. Exemplo:
+```html
+
+    <script src="./script.js"></script>
+        
+</body>
+</html>
+
+```
+## Variaveis
+Uma variável é um espaço na memória do computador destinado a um dado. Pode inicar com as palavras var, let e const.
+### Sintaxe
+Palavra chave (var,let ou const) seguida de um nome, sinal de "=" e o valor.
+```html
+var nome = 'andrew';
+let idade = 18;
+const estudante = true;
+```
+### Evitam repetições
+```html
+var quantidade = 5;
+var valor = 20;
+var total = quantidade * valor; // Nesse caso retornar 5 * 20 que é : 100;
+```
+
 > Em construção!
 
 ## Fontes de Pesquisa
