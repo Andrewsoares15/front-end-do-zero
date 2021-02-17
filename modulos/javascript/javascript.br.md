@@ -178,5 +178,5 @@ console.log(times) // (3) ["barcelona", "manchester united", "Milan"] // removeu
 ## Fontes de Pesquisa
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)</br>
-[Data Types](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4)
+[Data Types](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4) </br>
 [Origamid](https://www.origamid.com)
