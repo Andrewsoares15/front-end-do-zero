@@ -22,6 +22,20 @@ Precisamos conectar nossa página script.js à página HTML. Dentro da tag `<bod
 </html>
 
 ```
+## Comentários em JavaScript
+Comentários são linhas de códigos não executáveis.
+### Barra dupla // Serve para comentar uma linha de código
+```html
+// var texto = "esse código não será executado"
+```
+### Começa com /* e termina com */ Podemos comentar várias linhas de código
+```htmL
+/*
+var idade = 15
+var conseguir = 'você vai conseguir'
+*/
+```
+O código acima não sera executado, pois está dentro de um comentário /* */.
 ## Variaveis
 Uma variável é um espaço na memória do computador destinado a um dado. Pode inicar com as palavras var, let e const.
 ### Sintaxe
@@ -37,9 +51,52 @@ var quantidade = 5;
 var valor = 20;
 var total = quantidade * valor; // Nesse caso retornar 5 * 20 que é : 100;
 ```
+## Tipos de dados
+JavaScript possui 7 tipos de dados. Tirando os objetos, todos são primitivos.
+```html
+var idade = 18; // Number
+var nome = 'andrew'; // String
+var estudante = true; // Boolean
+var time; // Undefined
+var null = null; // Null
+var simbolo= symbol(); // Symbol
+var objeto = {}; // Obejto
+```
+### Descobrir o Tipo da variável
+Para isso, utilizamos o Typeof().
+```html
+var time = 'vasco';
+console.log(typeof(time)) // String
+```
+Para informações detalhadas sobre todos os tipos de dados: clique [Tipos de Dados](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4)
+Obs: É recomendado que leia esse artigo para o melhor entendimento do contéudo a seguir!
+## Funções
+Funções são blocos de códigos fundamentais em JavaScript. Uma função é um procedimento de JavaScript, um conjunto de instruções que executa uma tarefa ou calcula um valor.
+### Declarar uma função
+A declaração de função consiste no uso da palavra chave `Function`.
 
-> Em construção!
+```html
+function multiplicacao(num){
+ return num * num
+}
+console.log(multiplicacao(15)); // 225; chamando a função e demonstrando ela no console.
+console.log(multiplicacao(2)); // 4;
+console.log(multiplicacao(8)); // 64
+```
+### Parâmetros e Argumentos
+Ao `criar` uma função, você pode definir o(s) parâmetros. <br>
+Ao `Executar` uma função, você pode definir o(s) parâmetros.
+
+```html
+function imc(peso, altura){ //  Peso e Altura são parâmetros 
+  const imc = peso / altura * 2
+  return imc
+}
+console.log(imc(70, 1.90))  //  70, 1.80 são argumentos
+```
+## Objetos
 
 ## Fontes de Pesquisa
 
-[Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)
+[Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)</br>
+[Data Types](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4)
