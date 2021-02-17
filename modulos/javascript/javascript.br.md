@@ -128,7 +128,26 @@ console.log(quadrado.lados); // 4
 console.log(quadrado.area(4)); // soma 4 + 4 e retorna o 8.
 
 ```
+### Quase tudo é objeto
+Em JavaScript, quase tudo é um objeto. Todos os tipos primitivos, com exceção de null e undefined são tratados como objetos. Eles podem receber propriedades e métodos, e possuem todas as características de objetos.
+```html
+var nome = 'andrew';
+console.log(nome.length) // 6; 6 letras existem no nome andrew
+nome.replace("w", "ssa") // andressa; substituiu "w" por "ssa"
+```
+### Exercícios
+Abra seu editor de códigos e em um arquivo .js faça os exercícios abaixo. </br>
+Obs: Pratique muito JavaScript, isso te ajudará muito durante o aprendizado da linguagem. </br>
+```html
+// Crie um objeto com seu nome, idade e alguma outra informação
 
+
+// Substitua o valor de uma propriedade do objeto acima e adicione uma nova
+
+
+// Crie uma variável string e utilize 3 propriedades ou métodos nela.
+// Não sabe? Faça uma rápida pesquisa no google "métodos e propiedades em JS" e teste os que achar.
+```
 
 ## Fontes de Pesquisa
 
