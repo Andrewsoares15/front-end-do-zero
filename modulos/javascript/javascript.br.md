@@ -94,7 +94,41 @@ function imc(peso, altura){ //  Peso e Altura são parâmetros
 }
 console.log(imc(70, 1.90))  //  70, 1.80 são argumentos
 ```
-## Objetos
+## Objetos noções básicas
+Um objeto é uma coleção de dados e/ou funcionalidades relacionadas (que geralmente consistem em diversas variáveis e funções, que são chamadas de propriedades e métodos quando estão dentro de objetos).
+```html
+var eu = {
+  nome: 'andrew',
+  idade: 18,
+  time:'vasco',
+}
+console.log(eu) // { nome: "andrew", idade: 18, time = "vasco"}
+console.log(eu.nome) // andrew
+
+```
+### Alterar nome de uma propriedade do objeto acima
+```html
+eu.nome = 'heitor';
+```
+
+### Adicionar uma nova propriedade no obejto acima
+```html
+eu.profissao = 'front end';
+```
+
+### Método é uma propriedade que possui uma função no local do seu valor.
+ ```html
+var quadrado = {
+  lados:4,
+  area: function(lado){
+    return lado + lado
+  },
+};
+console.log(quadrado.lados); // 4
+console.log(quadrado.area(4)); // soma 4 + 4 e retorna o 8.
+
+```
+
 
 ## Fontes de Pesquisa
 
