@@ -117,6 +117,7 @@ eu.profissao = 'front end';
 ```
 
 ### Método é uma propriedade que possui uma função no local do seu valor.
+Console.log() é um método, utilizado para demonstrar um determinado valor no console do navegador.
  ```html
 var quadrado = {
   lados:4,
@@ -148,8 +149,34 @@ Obs: Pratique muito JavaScript, isso te ajudará muito durante o aprendizado da 
 // Crie uma variável string e utilize 3 propriedades ou métodos nela.
 // Não sabe? Faça uma rápida pesquisa no google "métodos e propiedades em JS" e teste os que achar.
 ```
+## Arrays
+O objeto Array do JavaScript é um objeto global usado na construção de 'arrays'. objetos de alto nível semelhantes a listas.
+```html
+var times = ["Barcelona", "Manchester United", "Milan"]
+console.log(times) // (3) ["barcelona", "manchester united", "Milan"]
+```
+### Selecionando um valor em um Array
+Para selecionarmos um valor em um array é necessário passar seu índice. Em um Array o primeiro índice é [0], então para chamarmos o primeiro valor do array acima, faremos assim:
+```html
+times[0]// barcelona;
+times[1] // manchester united;
+times[2] // Milan;
+```
+### Adicionando um valor ao final do Array
+Utilizando o método push
+```html
+times.push("vasco");
+console.log(times); // (4) ["barcelona", "manchester united", "Milan", "vasco"]
+```
+### Removendo o último item do array
+Utilizando o método pop
+```html
+times.pop();
+console.log(times) // (3) ["barcelona", "manchester united", "Milan"] // removeu o último valor que era o vasco.
 
+```
 ## Fontes de Pesquisa
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)</br>
 [Data Types](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4)
+[Origamid](https://www.origamid.com)
