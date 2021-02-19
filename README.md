@@ -57,5 +57,13 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
         </sub>
       </a>
     </td>
+     <td align="center">
+      <a href="https://github.com/Andrewsoares15">
+        <img src="file:///C:/Users/PICHAU/Downloads/WhatsApp%20Image%202020-10-23%20at%2016.20.50.jpeg" width="100px;" alt="Foto de Andrew Soares"/><br>
+        <sub>
+          <b>Levi Ribeiro Filho</b>
+        </sub>
+      </a>
+    </td>
   </tr>  
 </table>
