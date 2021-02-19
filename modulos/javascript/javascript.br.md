@@ -312,11 +312,17 @@ let dia = 30; // erro, redeclarou a variavel.
 ## DOCUMENT OBJECT MODEL (DOM) Introdução;
 É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, estilo e conteúdo destes documentos.
 Um exemplo de como adicionar uma class em uma section por exemplo com o Dom.
+Você vai ter muito contato com o Dom, ele é essêncial na criação de sites dinâmicos, intereção com o usuário e etc...
 ```html
 var section = document.querySelector('section');
 section.classList.add('nome da class que quer adicionar').
 ```
 NOVAMENTE: Faça teste, pesquise, pratique.
+
+## Curso Recomendado
+
+[JavaScritpt- Guanabara](https://www.youtube.com/watch?v=BXqUH86F-kA&list=PLntvgXM11X6pi7mW0O4ZmfUI1xDSIbmTm)</br>
+
 ## Fontes de Pesquisa
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)</br>
