@@ -122,11 +122,13 @@ Coloque esse código em seu editor de códigos e veja o resultado. </br>
 OBS: faça todos os teste você mesmo, faça exercícios, busque informações e se aprofunde.
 ## Exercícios
 Abra seu editor de códigos e em um arquivo .js faça os exercícios abaixo. </br>
+```html
 // Declare 5 variaveis e descubra o tipo delas
 
 
 
-// Declare duas variaveis do tipo number e some elas. Guarde o valor em outra variável. </br>
+// Declare duas variaveis do tipo number e some elas. Guarde o valor em outra variável.
+```
 Para informações detalhadas sobre todos os tipos de dados: clique [Tipos de Dados](https://ricardo-reis.medium.com/tipos-de-dados-javascript-a1f6f498a7d4) </br>
 Obs: É recomendado que leia esse artigo para o melhor entendimento do contéudo a seguir!
 ## Funções
@@ -244,7 +246,69 @@ for(var i = 1; i < 10;i++){
   console.log(i);
 }
 ```
+### Escopo
+Escopo é a acessibilidade de objetos, variáveis e funções em diferentes partes do código.
+Em outras palavras, o que determina quais são os dados que podem ser acessados em uma determinada parte do código é o escopo.
+Imagine que escopo é uma caixa e tudo que for criado nessa caixa pode ser acessado por qualquer objeto dentro da mesma. Um escopo é criado sempre que definimos uma função:
+```html
+function ola(name){
+// isso é um escopo
+}
+```
+Sempre que iniciamos nosso código, o JavaScript cria um escopo global, uma caixa maior para que possamos colocar todas as demais caixas dentro, e quando criamos nossa função hello estamos colocando uma caixa menor dentro do escopo global na qual estamos trabalhando.
+```html
+function ola(name){
+    // escopo de ola
+    function hello(name){
+        // escopo de hello
+}
+}
+```
+Quando criamos outra função dentro da função foo, estamos colocando outra caixa dentro do escopo da função, criando o que é chamado de “nested scopes”, ou escopos aninhados.
+Todo o escopo é fechado para acessos externos, de forma que escopos superiores não conseguem acessar escopos internos, mas o contrário é permitido.
+### Escopo de função
+Variaveis declaradas dentro de uma função não são acessadas fora dela.
+```html
+function ola(){
+  var idade = 20
+}
+
+console.log(idade) // error: idade is not defined
+```
+### Escopo de Bloco
+Variáveis criadas com `var`, vazam o bloco. Por isso com a introdução do ES6 a melhor forma de declarmos uma variável é utilizando `const` e `let`, pois estas respeitam o escopo de bloco.
+```html
+if(true){
+  var nome = 'andrew';
+}
+console.log(nome) // andrew
+```
+IMPORTANTE: Chaves `{}` criam um escopo de bloco, não confundir com a criação de objetos `= {}`.
 ### Var, Const ou Let. Qual usar?
+É recomendado utilizar `const` ou `let` na declaração de variaveis. Pois elas não vazam o bloco.
+```html
+if(true){
+  `const` nome = 'andrew';
+}
+console.log(nome) // error: nome is not defined
+```
+### Const
+Mantém o escopo no bloco, impede a redeclaração e impede a modificação do valor da variável, evitando bugs no código.
+```html
+const nome = 'andrew';
+nome = 'davi' // erro, não pode alterar o valor
+const nome; // erro, impede a redeclaração
+```
+### Let
+Mantém o escopo no bloco, impede a redeclaração, mas permite a modificação do valor da variável.
+```html
+let dia = 19;
+++dia;
+console.log(dia) // 20;
+
+let dia = 30; // erro, redeclarou a variavel.
+```
+
 ## DOCUMENT OBJECT MODEL (DOM) Introdução;
 É uma interface que representa documentos HTML e XML através de objetos. Com ela é possível manipular a estrutura, estilo e conteúdo destes documentos.
 Um exemplo de como adicionar uma class em uma section por exemplo com o Dom.
@@ -252,6 +316,7 @@ Um exemplo de como adicionar uma class em uma section por exemplo com o Dom.
 var section = document.querySelector('section');
 section.classList.add('nome da class que quer adicionar').
 ```
+NOVAMENTE: Faça teste, pesquise, pratique.
 ## Fontes de Pesquisa
 
 [Developer Mozilla](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/O_que_e_JavaScript)</br>
