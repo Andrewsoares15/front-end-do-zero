@@ -61,7 +61,7 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
       <a href="https://github.com/Andrewsoares15">
         <img src="https://avatars.githubusercontent.com/u/70962775" width="100px;" alt="Foto do Andrew"/><br>
         <sub>
-          <b>Andrew</b>
+          <b>Andrew Soares</b>
         </sub>
       </a>
     </td>
