@@ -57,11 +57,11 @@ Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais
         </sub>
       </a>
     </td>
-     <td align="center">
+      <td align="center">
       <a href="https://github.com/Andrewsoares15">
-        <img src="https://photos.google.com/share/AF1QipPT1eLNoVhp6kelHaQnuNgbEQ-IHMDimvPtOZOL1QZkxC7tyJppXzW92fBG6s9aZA/photo/AF1QipM7kExip8HdvhsvMD0KUconHH-bbq99xuvIFf3f?key=ZW1zVEJqOWR6T3lCdEZwMDlscVl4V1NLQnk1X253" width="100px;" alt="Foto de Andrew Soares"/><br>
+        <img src="https://avatars.githubusercontent.com/u/70962775" width="100px;" alt="Foto do Andrew"/><br>
         <sub>
-          <b>Andrew Soares</b>
+          <b>Andrew</b>
         </sub>
       </a>
     </td>
